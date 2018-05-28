@@ -1,0 +1,87 @@
+﻿* { margin:0; padding:0}
+em,q,cite,address { font-weight:normal; font-style:normal}
+address { display:inline}
+big,small { font-size:12px}
+body { font-size:12px; line-height:20px; font-family:Tahoma, Arial, sans-serif, Simsun; color:#333; background:url(images/v1_GlobalBackground.png) repeat #f3f3f3}
+img { border:0}
+li { list-style:none}
+q { quotes:none}
+q:before,q:after {content:""}
+strong { font-weight:bold}
+del { font-family:Simsun}
+dfn { padding-right:2px; text-decoration:none; font-family:Arial; font-style:normal}
+th { text-align:left; font-weight:normal}
+
+/* link */
+a { color:#0052aa; text-decoration:none; outline-style:none}
+a:hover { color:#c00000; text-decoration:underline}
+/* link in text */
+a.t { text-decoration:underline}
+a.t:hover { text-decoration:underline}
+
+/* clear float */
+.cf { zoom:1} /* for IE */
+.cf:after { content:"."; display: block; clear:both; font-size:0; height:0; visibility:hidden; overflow:hidden} /* for other */
+/* end of clear float */
+
+/* float */
+.left { float:left}
+.right { float:right}
+.fnone { float:none}
+.middle{ float:left}
+
+/* text-align */
+.tleft { text-align:left}
+.tright { text-align:right}
+.tcenter { text-align:center}
+
+/* display */
+.dis { display:block}
+.undis { display:none}
+
+/* form */
+input,select { vertical-align:middle; font-size:14px; font-family:Tahoma; color:#333}
+input[type="text"],input[type="password"] { padding:0 3px; height:28px; line-height:28px; border:1px solid; border-color:#666 #bbb #bbb #666; background:#fff}
+input[type="file"] { height:30px}
+* html input.txtinput { padding:0 3px; height:28px; line-height:28px; border:1px solid; border-color:#666 #bbb #bbb #666; background:#fff} /* for IE6 */
+* html input.fileinput { height:20px} /* for IE6 */
+input[type="checkbox"],input[type="radio"] { margin-right:4px}
+*+html input.checkinput { margin-right:0} /* for IE7 */
+*+html input.radioinput { margin-right:0} /* for IE7 */
+select { height:20px; color:#333}
+textarea { padding:3px 0 3px 3px; font-size:14px; font-family:Tahoma; color:#333; border:1px solid; border-color:#666 #bbb #bbb #666; background:#fff}
+.btn-s { display:inline-block; vertical-align:middle; background:url(images/v1_button.png) 0 0 no-repeat}
+.btn-s a, .btn-s input { cursor:pointer; height:30px; padding:0 12px; text-align:center; line-height:30px; font-size:14px; font-family:Simsun; font-weight:bold; color:#fff; border:0; background:url(images/v1_button.png) right -30px no-repeat}
+.btn-s a { display:inline-block}
+.btn-s a:hover { text-decoration:none}
+
+/* required */
+.rq { font-size:11px; font-family:verdana; font-weight:normal; color:#f00; padding-right:5px}
+
+/* paginator */
+.paginator { clear:both; padding:20px 0; text-align:center; line-height:14px}
+.paginator span, .paginator a { display:inline-block; overflow:hidden; height:15px; margin-left:4px; padding:6px 8px 5px; vertical-align:middle; font-weight:bold; color:#fff; -moz-border-radius:3px; -webkit-border-radius:3px; background:#0052aa}
+.paginator a { color:#3c3c3c; text-decoration:none; font-weight:normal; border:1px solid #ccc; background:#fff}
+.paginator a:hover { text-decoration:none; border:1px solid #0052aa}
+.paginator .ellipsis { font-weight:normal; color:#636363; background:none}
+.paginator .prev { padding-left:19px; line-height:15px; font-family:Simsun; border:1px solid #ccc; background:url(images/v1_icon_02.png) 8px -421px no-repeat #fff}
+.paginator span.prev { font-weight:normal; color:#ccc; background-position:8px -451px}
+.paginator .next { padding-right:18px; line-height:15px; font-family:Simsun; border:1px solid #ccc; background:url(images/v1_icon_02.png) 48px -481px no-repeat #fff}
+.paginator span.next { font-weight:normal; color:#ccc; background-position:48px -531px}
+
+/* status */
+.status { padding:10px 0; text-align:center}
+
+/* loading */
+.loading01 { padding:10px 0; text-align:center}
+
+/* alarm */
+.alarm { margin-bottom:10px; padding:2px 16px; color:#c00000; border:1px solid #DD3C10; background:#FFE6E6}
+.alarm span { padding-right:16px; background:url(images/v1_icon_02.png) 0 0 no-repeat}
+/* notice */
+.notice { margin-bottom:10px; padding:2px 16px; border:1px solid #ffd4a5; background:#fff9e5}
+.notice em { color:#FD7600}
+.notice span { padding-right:16px; background:url(images/v1_icon_02.png) 0 -60px no-repeat}
+/* valid */
+.valid { margin-bottom:10px; padding:2px 16px; color:#063; border:1px solid #82b753; background:#f0ffe2}
+.valid span { padding-right:16px; background:url(images/v1_icon_02.png) 0 -30px no-repeat}
